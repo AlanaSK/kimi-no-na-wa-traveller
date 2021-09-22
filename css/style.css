@@ -169,3 +169,70 @@ html, body {
   background-image: url(../img/bg-roteiro.jpg);
 }
 
+.locais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.locais h2 {
+  margin: 35px 0;
+  font-size: 20px;
+  color: var(--dark-gray);
+}
+
+.locais .linha1, .locais .linha2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.locais .item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--dark-gray);
+}
+
+.locais .item img {
+  width: 400px;
+}
+
+.locais .item p {
+  width: 350px;
+  font-size: 15px;
+  margin: 10px 0 30px 0;
+}
+
+.contato {
+  background-image: url(../img/bg-contato.jpg);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--dark-gray);
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.form-info label {
+  margin: 10px 0 5px;
+}
+
+.form-info input {
+  padding: 5px;
+}
+
+.form-info textarea {
+  resize: none;
+}
+
+
