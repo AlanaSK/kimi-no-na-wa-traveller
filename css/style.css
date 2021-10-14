@@ -301,6 +301,7 @@ html, body {
     margin: 15px 0;
     font-size: 13px;
     text-align: center;
+    width: 80%;
   }
   
   .home-local .itens {
