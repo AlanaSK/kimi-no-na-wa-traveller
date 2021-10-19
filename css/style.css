@@ -40,7 +40,7 @@ html, body {
 .header .menu {
   font-size: 20px;
   margin: 25px 0;
-  width: 111px;
+  width: 160px;
 }
 
 .header .menu ul {
@@ -264,6 +264,66 @@ html, body {
   .btn:hover {
     background-color: var(--dark-gray);
     color: var(--white);
+  }
+
+  .hospedagem {
+    background-image: url(../img/bg-hospedagem.png);
+  }
+
+  .hospedagem .menu ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .hospedagem-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 40px;
+  }
+
+  .form-hosp {
+    display: flex;
+    margin: 25px 0;
+  }
+
+  .form-opcoes {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  .form-opcoes input {
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .hosp-opcoes img {
+    height: 250px;
+  }
+
+  .hosp-opcoes {
+    display: flex;
+  }
+
+  .hotel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hosp-opcoes h3 {
+    margin: 10px 0 0;
+  }
+
+  .hosp-opcoes h4 {
+    margin: 10px 0;
+  }
+
+  .hosp-opcoes p {
+    margin: 0;
   }
 
 /* celular */
